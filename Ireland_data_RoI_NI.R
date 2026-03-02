@@ -160,4 +160,3 @@ final <- bind_rows(companies, verticals_final)
 # Export Outputs
 # ==========================================================
 write_csv(final, "FullIrelandData.csv")
-write_csv(final_filtered, "FullIrelandData_NL.csv")
